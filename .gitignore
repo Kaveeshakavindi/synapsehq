@@ -1,0 +1,29 @@
+# --- secrets ---
+.env
+.env.*
+!.env.example
+
+# --- large / generated, per exclusion request ---
+faiss_index/
+node_modules/
+venv/
+.venv/
+DataPreprocessing/
+*.csv
+
+# --- docs excluded from this push ---
+backend.md
+frontend.md
+
+# --- build artifacts / caches ---
+__pycache__/
+*.pyc
+.next/
+*.tsbuildinfo
+next-env.d.ts
+
+# --- OS / editor ---
+.DS_Store
+
+# --- local tool config, not meant for the repo ---
+.claude/

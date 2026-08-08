@@ -1,5 +1,0 @@
-ESG TOPIC STATISTICS:
-Total topic mentions: 40,136
-Unique topics: 359
-Most common topics (>100 mentions): 72
-Rare topics (<10 mentions): 103
